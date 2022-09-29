@@ -21,6 +21,7 @@ public class TestController extends BaseController {
     private UserService userService;
 
 
+/*
 
 
 
@@ -126,4 +127,15 @@ public class TestController extends BaseController {
         return R.result(a,c);
     }
 
+*/
+
+
+
+    @RequestMapping("/test6")
+    public Map<String,Object> test6(String param1,String param2) {
+        int a = 2 ;
+        int b = 2;
+        int c = 3;
+        return R.result(a,b,c,param1,param2);
+    }
 }
