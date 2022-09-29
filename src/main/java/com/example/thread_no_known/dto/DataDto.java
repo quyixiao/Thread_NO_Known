@@ -5,17 +5,11 @@ import lombok.Data;
 
 @Data
 public class DataDto {
-    private int a;
-    private int b;
-    private int c;
+    private Integer a;
+    private Integer b;
+    private Integer c;
 
 
-
-
-
-    public void bb(){
-        int cc = 1;
-    }
 
 
 }
